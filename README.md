@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 TaskFlow — Smart Task Management App
 
-## Getting Started
+> A modern, full-stack task management application inspired by real-world productivity tools.
+> Built with scalability, clean architecture, and performance in mind.
 
-First, run the development server:
+---
+
+## 🌐 Overview
+
+TaskFlow is a dynamic task management system that allows users to organize, track, and manage tasks efficiently.
+Designed to mimic real-world tools like Trello while showcasing strong frontend + backend integration.
+
+---
+
+## ✨ Key Features
+
+* 🗂️ Create, update, and manage tasks
+* 📌 Organized board-based task system
+* ⚡ Fast and responsive UI
+* 🔄 Real-time-like interactions (client-side updates)
+* 🧠 Scalable backend using Prisma ORM
+* 🧩 Modular and reusable components
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** Next.js, React, TypeScript
+* **Backend:** Next.js API Routes
+* **Database:** Prisma ORM
+* **Styling:** CSS / Tailwind CSS
+
+---
+
+## 📁 Project Structure
+
+```bash
+my-app/
+├── app/            # App routes & pages
+├── components/     # UI components
+├── lib/            # Utilities & helpers
+├── prisma/         # DB schema & config
+├── public/         # Static files
+├── store/          # State management
+├── types/          # Type definitions
+```
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/shabanask12/trello.git
+cd trello
+```
+
+---
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+---
+
+### 3. Configure environment
+
+Create `.env` file:
+
+```env
+DATABASE_URL=your_database_url_here
+```
+
+---
+
+### 4. Run the application
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+👉 Open: http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📸 Screenshots
+<img width="1067" height="751" alt="image" src="https://github.com/user-attachments/assets/7c48c625-6401-486c-b3a8-bb67ebe44b78" />
 
-## Learn More
+<img width="1306" height="600" alt="image" src="https://github.com/user-attachments/assets/e07a313b-c0e5-4268-9924-4b174aa50e3d" />
+<img width="1312" height="695" alt="image" src="https://github.com/user-attachments/assets/562160b3-7a5c-4ebd-afb2-000eeb27d2de" />
 
-To learn more about Next.js, take a look at the following resources:
+![Uploading image.png…]()
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Future Enhancements
 
-## Deploy on Vercel
+* 🔐 Authentication (Login / Signup)
+* 👥 Multi-user collaboration
+* 📊 Task analytics dashboard
+* 🌐 Live deployment & CI/CD integration
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 💼 Why This Project Matters
+
+This project demonstrates:
+
+* Real-world full-stack development skills
+* Clean and scalable folder structure
+* Practical use of ORM (Prisma)
+* Strong understanding of modern React + Next.js
+
+---
+
+## 👩‍💻 Author
+
+**Shabana**
+Software Developer 
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ — it helps!
