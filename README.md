@@ -92,7 +92,6 @@ npm run dev
 <img width="1306" height="600" alt="image" src="https://github.com/user-attachments/assets/e07a313b-c0e5-4268-9924-4b174aa50e3d" />
 <img width="1312" height="695" alt="image" src="https://github.com/user-attachments/assets/562160b3-7a5c-4ebd-afb2-000eeb27d2de" />
 
-![Uploading image.png…]()
 
 ---
 
